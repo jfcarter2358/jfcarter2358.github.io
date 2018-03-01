@@ -1,16 +1,25 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/common.css">
-        <script src="static/js/index.js"></script>
+        <script src="js/index.js"></script>
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.template.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
         <script type="text/javascript" async
             src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+        <script>
+            $.getJSON('testing.json', function(data) {
+                $('#target').template(data);
+            });
         </script>
     </head>
     <body>
         Testing 
-        \[1, 2, 3\]
-        Hello \(world\)
+        <ul id="target">
+            <li template="[tests]" z-var="text ., block ., inline .">
+             ${text} - ${inline}
+             ${block}
+            </li>
+        </ul>
     </body>
 </html>
