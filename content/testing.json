@@ -1,6 +1,0 @@
-{
-    "tests":
-    [
-        {"text": "hello", "inline": "\\(\\alpha\\)", "block": "\\[\\beta + \\gamma = 7\\]"}
-    ]
-}

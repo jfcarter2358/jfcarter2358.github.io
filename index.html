@@ -1,25 +1,40 @@
 <html>
     <head>
-        <link rel="stylesheet" href="css/common.css">
+        <title>Theory Working in Practice :: Home</title>
+        <link rel="stylesheet" href="css/main.css">
         <script src="js/index.js"></script>
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-        <script src="https://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
         <script type="text/javascript" async
             src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
         </script>
-        <script>
-            $.getJSON('testing.json', function(data) {
-                $('#target').template(data);
-            });
-        </script>
     </head>
     <body>
-        Testing 
-        <ul id="target">
-            <li template="[tests]" z-var="text ., block ., inline .">
-             ${text} - ${inline}
-             ${block}
-            </li>
-        </ul>
+        <div id=image>
+            <h1>
+                Theory Working<br>in<br>Practice
+            </h1>
+        </div>
+        <div id=description>
+            <p>
+                <b>
+                    Welcome to Theory Working in Practice!  Here you'll find projects I'm working on as 
+                    well as random questions about the strangest of topics that I decide to determine, because it works in theory, does it work in practice?
+                </b>
+            </p>
+        </div>
+        <div id=content>
+            <h2>
+                Posts    
+            </h2>
+            <div class=post>
+                <h3>Bun Power</h3>
+            </div>
+            <div class=post>
+                <h3>Pokémon Power Generation</h3>
+            </div>
+            <div class=post>
+                <h3>What If You Poked the Sun With a Stick?</h3>
+            </div>
+        </div>
     </body>
 </html>
