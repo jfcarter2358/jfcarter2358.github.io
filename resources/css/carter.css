@@ -1,11 +1,89 @@
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
-.carter-cornflower
+.carter-shadow
 {
-    background-color: light;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.carter-text-cornflower
+html
 {
-    color: cornflowerblue;
+    padding:0px;
+    height:100%;
+    width:100%;
+}
+
+body
+{
+    padding:0px;
+    height:100%;
+    width:100%;
+}
+
+#content
+{
+    background-color:#088;
+    position:absolute;
+    height:100%;
+    width:90%;
+    left:10%;
+    z-index:1
+}
+
+.carter-menu-text
+{
+    position:relative;
+    top:0px;
+}
+
+/* Style the links inside the sidenav */
+#sidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -250px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 320px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: black; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+  
+#sidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+  
+  /* The about link: 20px from the top with a green background */
+#home {
+    top: 20px;
+    background-color: #fff;
+}
+
+#education {
+    top: 100px;
+    background-color: #fff;
+}
+
+#lab {
+    top: 180px;
+    background-color: #fff;
+}
+
+#projects {
+    top: 260px;
+    background-color: #fff;
+}
+
+#publications {
+    top: 340px;
+    background-color: #fff;
+}
+
+#work {
+    top: 420px;
+    background-color: #fff;
+}
+
+.carter-ul
+{
+    list-style-type: none;
 }
