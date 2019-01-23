@@ -223,7 +223,7 @@ var pageContent = {
             }
         }
     },
-    "datasciencesummit.html" :
+    "datasciencesummit" :
     {
         "title" : "Illinois Data Science Initiative (iDSI) Industry Data Science Summit Poster Presentation",
         "blocks" : 
@@ -231,10 +231,7 @@ var pageContent = {
             "b0" : 
             {
                 "title" : "Presentation Poster",
-                "content" : 
-                [
-                    ""
-                ]
+                "content" : []
             },
             "b1" : 
             {
@@ -274,10 +271,7 @@ var pageContent = {
             "b0" : 
             {
                 "title" : "Presentation Poster",
-                "content" : 
-                [
-                    ""
-                ]
+                "content" : []
             },
             "b1" : 
             {
