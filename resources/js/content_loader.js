@@ -222,11 +222,6 @@ var pageContent = {
                     "Prepared multiple sample solutions with different FeCl<sub>3</sub> concentrations",
 					"Systematically acquired data using a PNMR spectrometer and performed analysis on said data"
                 ]
-            },
-            "b1" : 
-            {
-                "title" : "Report",
-                "content" : []
             }
         }
     },
@@ -399,6 +394,7 @@ $(document).ready(
     {
         // get current page name
         var urlParts = $(location).attr("href").split("/");
+        console.log(urlParts);
         var pageName = urlParts.pop().split(".")[0];
         console.log(pageName);
 
