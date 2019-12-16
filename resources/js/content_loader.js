@@ -1,4 +1,27 @@
 var pageContent = {
+    "modelop" : 
+    {
+        "title" : "ModelOp",
+        "blocks" : 
+        {
+            "b0" : 
+            {
+                "title" : "Field Engineer",
+                "content" : 
+                [
+                    "Utilizing Docker and Kubernetes to Implement the software in large-scale enterprise situations"
+                ]
+            },
+            "b1" : 
+            {
+                "title" : "Member of Technical Staff",
+                "content" : 
+                [
+                    "Developed improvements to the ModelOp Model Operations Center software package"
+                ]
+            }
+        }
+    },
     "boldinsight" : 
     {
         "title" : "Bold Insight",
@@ -85,7 +108,9 @@ var pageContent = {
                 "content" : 
                 [
                     "Implementing and developing natural language processing techniques to model media coverage of geopolitical events",
-                    "Performing analysis of large-scale datasets to extract meaningful relationships between political entities involved in relevant time periods"
+                    "Performing analysis of large-scale datasets to extract meaningful relationships between political entities involved in relevant time periods",
+                    "Working paper produced by the PI describing the results of the research performed:",
+                    "&emsp;http://www.stephenchaudoin.com/philmedia.pdf"
                 ]
             }
         }
@@ -126,14 +151,10 @@ var pageContent = {
                 [
                     "Finished construction of the cosmic ray detector",
                     "Created logic setup to eliminate false counts from the scintillator/photomultiplier detectors",
+                    "Wrote C++ code to perform the analysis of the muon data and determine the g-factor",
                     "Determined cosmic ray muon g-factor to within 2 sigma of theoretical results",
                     "Performed analysis of muon detection time and angle dependence to confirm that cosmic rays are of extra-solar origin"
                 ]
-            },
-            "b1" : 
-            {
-                "title" : "Report",
-                "content" : []
             }
         }
     },
@@ -151,15 +172,10 @@ var pageContent = {
                     "Measured the resonant frequency of each isotope in a known magnetic field to determine each isotope’s spin (g<sub>f</sub>) value",
                     "Swept the horizontal magnetic field in the apparatus to determine the isotope’s Zeeman resonance"
                 ]
-            },
-            "b1" : 
-            {
-                "title" : "Report",
-                "content" : []
             }
         }
     },
-    "opticalpumping" :
+    "fluorescence" :
     {
         "title" : "Time Domain Properties of Laser-induced Ruby Fluorescence",
         "blocks" : 
@@ -169,19 +185,14 @@ var pageContent = {
                 "title" : "Description",
                 "content" : 
                 [
-                    "Measured exponential decay of ruby fluorescence lifetime",
-                    "Compared experimental data to theoretical single and double lifetime curves",
-                    "Measured change in exponential decay with sample temperature"
+                    "Created an optical setup in order to excite the ruby sample to produce a fluorescent response",
+					"Collected data on the fluorescence decay in response to different sample temperatures",
+					"Compared experimental data to theoretical single and double lifetime curves in order to determine ruby fluorescence decay temperature dependence"
                 ]
-            },
-            "b1" : 
-            {
-                "title" : "Report",
-                "content" : []
             }
         }
     },
-    "opticalpumping" :
+    "hysteresis" :
     {
         "title" : "Ferroelectric Hysteresis Properties of BaTiO<sub>3</sub> and Curie Temperature Determination",
         "blocks" : 
@@ -191,18 +202,14 @@ var pageContent = {
                 "title" : "Description",
                 "content" : 
                 [
-                    "Prepared sample of BaTiO<sub>3</sub> for experimentation",
-                    "Methodically tested the sample across a large temperature domain"
+                    "Created an experimental setup in order to pass a sweeping electric current through a sample of BaTiO<sub>3</sub> at different temperatures in order to determine the Curie temperature of BaTiO<sub>3</sub>",
+                    "Performed lab experiment and swept high voltage currents through the sample at differing temperatures to obtain ferroelectric hysteresis data for the sample",
+                    "Performed analysis of the data to determine the material's Curie temperate to within 2 degrees of the theoretical value"
                 ]
-            },
-            "b1" : 
-            {
-                "title" : "Report",
-                "content" : []
             }
         }
     },
-    "opticalpumping" :
+    "fmri" :
     {
         "title" : "Pulsed Nuclear Magnetic Resonance in Water with FeCl<sub>3</sub>",
         "blocks" : 
@@ -213,7 +220,7 @@ var pageContent = {
                 "content" : 
                 [
                     "Prepared multiple sample solutions with different FeCl<sub>3</sub> concentrations",
-                    "Systematically acquired data using a PNMR spectrometer "
+					"Systematically acquired data using a PNMR spectrometer and performed analysis on said data"
                 ]
             },
             "b1" : 
@@ -302,7 +309,7 @@ var pageContent = {
                 "title" : "Citation",
                 "content" : 
                 [
-                    "Althaus, Scott, Joseph Bajjalieh, John F. Carter, Buddy Peyton, and Dan A. Shalmon. 2017. Cline Center Historical Phoenix Event Data. v.1.0.0. Distributed by Cline Center for Advanced Social Research. June 30. <a href=\"http://www.clinecenter.illinois.edu/data/event/phoenix/\">http://www.clinecenter.illinois.edu/data/event/phoenix/.</a>"
+                    "Althaus, Scott; Bajjalieh, Joseph; Carter, John; Peyton, Buddy; Shalmon, Dan (2019): Cline Center Historical Phoenix Event Data. Cline Center for Advanced Social Research. v1.2.0. December 10. University of Illinois at Urbana-Champaign. https://doi.org/10.13012/B2IDB-0647142_V2<br><a href=\"http://www.clinecenter.illinois.edu/data/event/phoenix/\">http://www.clinecenter.illinois.edu/data/event/phoenix/.</a>"
                 ]
             }
         }
