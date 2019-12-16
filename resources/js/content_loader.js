@@ -400,6 +400,7 @@ $(document).ready(
         // get current page name
         var urlParts = $(location).attr("href").split("/");
         var pageName = urlParts.pop().split(".")[0];
+        console.log(pageName);
 
         // define variables
         var contentTitle = document.getElementById("content-title");
