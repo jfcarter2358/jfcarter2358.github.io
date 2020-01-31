@@ -109,8 +109,14 @@ var pageContent = {
                 [
                     "Implementing and developing natural language processing techniques to model media coverage of geopolitical events",
                     "Performing analysis of large-scale datasets to extract meaningful relationships between political entities involved in relevant time periods",
-                    "Working paper produced by the PI describing the results of the research performed:",
-                    "&emsp;http://www.stephenchaudoin.com/philmedia.pdf"
+                ]
+            },
+            "b1":
+            {
+                "title": "PI's working paper on the project",
+                "content":
+                [
+                    "<a href=\"http://www.stephenchaudoin.com/philmedia.pdf\">Link to paper on PI's website</a>"
                 ]
             }
         }
