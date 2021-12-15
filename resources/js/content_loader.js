@@ -1,4 +1,19 @@
 var pageContent = {
+    "leapyear" :
+    {
+        "title" : "LeapYear",
+        "blocks" :
+        {
+            "b0" :
+            {
+                "title" : "Software Engineer",
+                "content" :
+                [
+                    "Improved environment installation via Terraform and Helm"
+                ]
+            }
+        }
+    },
     "modelop" :
     {
         "title" : "ModelOp",
